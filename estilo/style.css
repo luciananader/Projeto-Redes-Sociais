@@ -31,3 +31,22 @@ section#telefone{
     background-color: blue;
     background: url('../imagens/frame-iphone.png') no-repeat;
 }
+section#redessociais{
+    text-align: right;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+section#redessociais img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.692);
+    
+}
+section#redessociais img:hover{
+    border: 2px solid rgba(255, 255, 255, 0.144);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.548);
+    transition: transform 0.3s;
+    transform: translate(-3px, -3px);
+}
